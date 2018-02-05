@@ -2,7 +2,15 @@
 
 Heroku: https://j21-secret-swy.herokuapp.com/
 
-Y'en a marre du rap ! :(
+Pour l'instant, on peut :
+* Créer un user
+* Supprimer un user
+* Afficher la page secrète depuis la homepage
+
+Reste à faire :
+* Afficher flash si erreur de saisie de mdp lors de l'enregistrement
+* Empêcher l'affichage de la page secrète par URL directe pour user non loggué
+* Améliorer un peu le design
 
 ---
 
