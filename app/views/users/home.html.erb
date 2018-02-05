@@ -1,3 +1,17 @@
-<h1>Accueil</h1>
-<p>Pourquoi l'univers est-il l'univers</p>
-<p><%= link_to "C'est parce que...", univers_path %></p>
+<div class="center jumbotron">
+  <h1>Welcome to the Secret App</h1>
+
+  <h2>Why is the universe the universe?</h2>
+
+  <% if logged_in? %>
+    <p><%= link_to "The reason is...", univers_path %></p>
+  <% else %>
+    <p><%= link_to "Sign up to discover", login_path, class: "btn btn-lg btn-primary" %></p>
+  <% end %>
+
+  <% if logged_in? %>
+    <p><%= link_to "I'm out man", @session, method: :destroy %></p>
+  <% else %>
+    <p><%= link_to "Signup comrad Igor", signup_path %></p>
+  <% end %>
+</div>
