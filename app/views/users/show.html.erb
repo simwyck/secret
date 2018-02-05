@@ -1,2 +1,11 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<h1>User</h1>
+
+<p> <%= @user.email %></p>
+
+<p><a href="<%= edit_user_path %>" class="btn btn-primary">Edit User</a></p>
+
+<p><a href="<%= @user %>" class="btn btn-danger" data-confirm="Sure about this?" data-method="DELETE">Delete User</a></p>
+
+<p class="btn btn-danger"><%= link_to 'Delete User (Felix style)', @user, method: :delete %></p>
+
+<p><a href="<%= users_path %>" class="btn btn-default">Back To Users</a></p>
