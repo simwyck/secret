@@ -33,13 +33,14 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     @user.update(user_params)
-    redirect_to users_path
+    redirect_to user_path
   end
 
   def destroy
     @user = User.find(params[:id])
     @user.destroy
-    redirect_to users_path
+    flash[:success] = "Profile successfully deleted!"
+    redirect_to root_path
   end
 
   private
