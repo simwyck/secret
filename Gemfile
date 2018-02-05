@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 #gem 'pundit'
 
 gem 'rails'
+gem 'bcrypt'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
