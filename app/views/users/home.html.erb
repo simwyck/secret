@@ -8,10 +8,4 @@
   <% else %>
     <p><%= link_to "Sign up to discover", login_path, class: "btn btn-lg btn-primary" %></p>
   <% end %>
-
-  <% if logged_in? %>
-    <p><%= link_to "I'm out man", @session, method: :destroy %></p>
-  <% else %>
-    <p><%= link_to "Signup comrad Igor", signup_path %></p>
-  <% end %>
 </div>
