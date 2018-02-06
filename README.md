@@ -8,10 +8,11 @@ Pour l'instant, on peut :
 * Supprimer un user
 * Se connecter /déconnecter
 * Afficher la page secrète depuis la homepage
+* Empêcher l'affichage de la page secrète par URL directe pour user non loggué
+* Editer profil devrait marcher mais non testé
 
 Reste à faire :
 * Afficher flash si erreur de saisie de mdp lors de l'enregistrement
-* Empêcher l'affichage de la page secrète par URL directe pour user non loggué
 * Améliorer un peu le design
 
 ---
