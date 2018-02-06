@@ -27,3 +27,6 @@
 /app/controllers/sessions_controller0.rb
 /app/helpers/sessions_helper0.rb
 /app/models/user0.rb
+/app/views/users/new0.html.erb
+/app/assets/stylesheets/custom0.scss
+/app/views/sessions/new0.html.erb
