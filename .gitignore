@@ -22,4 +22,8 @@
 
 .byebug_history
 
-Gemfile0
+# Fichiers ou dossiers persos
+/Gemfile0
+/app/controllers/sessions_controller0.rb
+/app/helpers/sessions_helper0.rb
+/app/models/user0.rb
