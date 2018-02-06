@@ -43,6 +43,13 @@ class UsersController < ApplicationController
     redirect_to root_path
   end
 
+  def univers
+    if !logged_in?
+      redirect_to root_path
+    end
+
+  end
+
   private
 
   def user_params
