@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   root 'users#home'
 
   get '/univers', to: 'users#univers'
-  get '/univers0', to: 'users#no_universe'
 
   get '/signup', to: 'users#new'
   get '/login', to: 'sessions#new'
